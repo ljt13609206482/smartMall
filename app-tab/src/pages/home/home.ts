@@ -11,6 +11,7 @@ export class HomePage {
   items: string[];
 
   constructor(public navCtrl: NavController) {
+    //页面创建时初始化items数组
     this.initializeItems();
   }
   initializeItems() {
