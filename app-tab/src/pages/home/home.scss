@@ -20,4 +20,36 @@ page-home {
         padding-bottom: 4px;
         margin-top: 5px;
     }
+    .floor-content{
+        height: auto;
+        text-align: center;
+    }
+    .product-list{
+        width: 50%;
+        height: auto;
+        float: left;
+    }
+    .product-title{
+        color:#333;
+        font-size: 12px;
+        font-weight: bold;
+        margin: 0;
+    }
+    .product-price{
+        color: #0aa1ed;
+        font-weight: bold
+    }
+    .product-list a{
+        text-decoration: none;
+        font-size: 14px;
+        color: #ffffff;
+        background: #0aa1ed;
+        padding: 6px 23px;
+        bottom: 10px;
+    }
+    .poduct-title{
+        font-size: 1.2rem;
+        color: #333;
+        font-weight: bold;
+    }
 }
