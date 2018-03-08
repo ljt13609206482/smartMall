@@ -6,6 +6,42 @@
 </ion-header>
 
 <ion-content padding>
-  <ion-searchbar (ionInput)="getItems($event)"></ion-searchbar>
+  <!-- 收索框 -->
+  <div>
+    <ion-searchbar (ionInput)="getItems($event)"></ion-searchbar>
+  <!-- 广告轮播 -->
+   <div class="slides">
+    <ion-slides pager>
+      <ion-slide>
+        <div class="banner-img">
+          <img src="../../assets/imgs/img/index/banner1.png" alt="">
+        </div>
+      </ion-slide>
+      <ion-slide>
+        <div class="banner-img">
+          <img src="../../assets/imgs/img/index/banner2.png" alt="">
+        </div>
+      </ion-slide>
+      <ion-slide>
+        <div class="banner-img">
+          <img src="../../assets/imgs/img/index/banner3.png" alt="">
+        </div>
+      </ion-slide>
+      <ion-slide>
+        <div class="banner-img">
+          <img src="../../assets/imgs/img/index/banner4.png" alt="">
+        </div>
+      </ion-slide>
+     </ion-slides>
+   </div>
+   <!-- 楼层展示 -->
+   <div class="floor">
+     <!-- 第一层 -->
+     <div class="floor-title">
+      <img src="../../assets/imgs/img/index/computer_icon.png" alt="">
+      热销单品
+     </div>
+   </div>
+  </div>
 
 </ion-content>
